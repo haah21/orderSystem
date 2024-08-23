@@ -9,7 +9,7 @@ spring:
 #        on-profile: local
   redis:
     host: localhost
-    port: 6380
+    port: 6379
 
 #    RabbitMQ 환경설정
 #  rabbitmq:
