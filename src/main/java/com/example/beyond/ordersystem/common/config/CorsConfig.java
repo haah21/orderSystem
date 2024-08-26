@@ -9,7 +9,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry corsRegistry){
-        corsRegistry.addMapping("/*")
+        corsRegistry.addMapping("/**")
                 //.allowedOrigins("http://localhost:8081") // 허용 url 명시
                 .allowedOrigins("https://www.dabok.store") // 허용 url 명시
                 .allowedMethods("*")
