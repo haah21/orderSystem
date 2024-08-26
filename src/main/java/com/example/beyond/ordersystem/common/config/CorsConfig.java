@@ -12,7 +12,7 @@ public class CorsConfig implements WebMvcConfigurer {
         corsRegistry.addMapping("/*")
                 //.allowedOrigins("http://localhost:8081") // 허용 url 명시
                 .allowedOrigins("https://www.dabok.store") // 허용 url 명시
-                .allowedMethods("")
+                .allowedMethods("*")
                 .allowedHeaders("*")
                 .allowCredentials(true);
     }
