@@ -33,7 +33,7 @@ jwt:
   expirationRt: 14400
   secretKeyRt: hackerton_secret
 
-  #aws s3설정
+  #aws s3설정 -> 실행할때 에러남
 cloud:
   aws:
     credentials:
