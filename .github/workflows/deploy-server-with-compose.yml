@@ -22,4 +22,4 @@ jobs:
           password: ${{secrets.DOCKER_PASSWORD}}
       
       - name: push to dockerhub
-        run: docker push hannahlee21/ordersystem:latest .
+        run: docker push hannahlee21/ordersystem:latest
